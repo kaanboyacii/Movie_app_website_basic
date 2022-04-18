@@ -1,0 +1,61 @@
+.signup-page {
+    padding-top: 60px;
+}
+.signup-title{
+    height: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #781D42;
+}
+.signup-form{
+    width: 100%;
+}
+@media (min-width: 768px){
+    .signup-form{
+        width: 500px;
+        margin: auto;
+    }
+}
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.signup-form input[type="checkbox"],
+.signup-form input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+    margin-top: 15px;
+}
+.signup-form button[type="submit"]{
+    display: block;
+    margin-top: 20px;
+}
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.signup-form input:not([type="checkbox"]):focus,
+.signup-form select:focus {
+    outline: none;
+    background-color: lightsalmon;
+    border: 1px solid #781D42;
+}
+.signup-form input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #781D42 ;
+    vertical-align: bottom;
+    border-radius: 30%;
+}
+.signup-form input[type="checkbox"]:hover {
+    background-color: honeydew;
+}
+.signup-form input[type="checkbox"]:checked {
+    background-color: #DE834D;
+}
